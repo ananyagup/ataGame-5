@@ -1,8 +1,10 @@
-let c = "#c9decf";
-let colorArr = ["#f5ddad", "#f1bcae", "#c9decf"];
+let c = "pink";
+let colorArr = ["pink", "powderblue", "lavender"]
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let cnv = createCanvas(850, 600);
+  cnv.position(295, 125)
+  background('powderblue');
 }
 
 function mouseMoved() {
