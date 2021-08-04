@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: none;
+}
+
+.enterUser {
+  margin-left: 43%;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 50%;
+  padding: 10px;
+}
