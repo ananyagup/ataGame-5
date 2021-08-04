@@ -1,5 +1,15 @@
+let c = "#c9decf";
+let colorArr = ["#f5ddad", "#f1bcae", "#c9decf"];
+
 function setup() {
-  canvas = createCanvas(windowWidth, 70);
-  canvas.position(0,0);
-  background('powderblue');
+  createCanvas(windowWidth, windowHeight);
+}
+
+function mouseMoved() {
+  fill(c);
+  ellipse(mouseX, mouseY, 50);
+}
+
+function mouseClicked() {
+  c = random(colorArr)
 }
