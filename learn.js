@@ -18,4 +18,3 @@ function mouseMoved() {
 function mouseClicked() {
   c = random(colorArr)
 }
-
