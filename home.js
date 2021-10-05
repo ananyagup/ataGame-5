@@ -71,7 +71,7 @@ function statusCheck(char) {
     if (getChar.includes(char)) {
       console.log('is in inventory');
       document.getElementById(char+'_img').src = imgSrc + "_start.jpg";
-      document.getElementById(char+'_btn').disabled = true;
+      //document.getElementById(char+'_btn').disabled = true;
       document.getElementById(char+'_btn').style.visibility = "hidden";
   }}, 3000);
 }
@@ -95,6 +95,7 @@ function charClick(char) {
     sessionStorage.setItem("character", char);
   } else {
     console.log("need to add to inventory", char);
+    addChar(char)
   }
 }
 
